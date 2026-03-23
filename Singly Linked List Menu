@@ -58,7 +58,7 @@ void deleteFromBeg(){
     if(head == NULL)
         printf("List is Empty!!!\n");
     else{
-        head = head->next;
+        head = head->next->next;
         printf("Node deleted from beginning!!!\n");
     }
 }
